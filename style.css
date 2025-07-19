@@ -1,5 +1,18 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0;     
+}
+
+.calcultor-box{
+    border-radius: 1rem;
+    max-width: 70%;
+}
+
+.operator-btn{
+    background-color: orange;
+}
+
+.operator-btn:hover{
+    background-color: rgb(255, 194, 80);
 }
