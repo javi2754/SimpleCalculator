@@ -18,43 +18,43 @@
 <body>
     <div class="container">
         <div class="d-flex justify-content-center align-items-center vh-100">
-            <div class="bg-dark p-4 calcultor-box">
-                <div id="result" class="bg-white text-dark rounded text-end p-2 fs-1 result-box">0</div>
+            <div class="p-4 calcultor-box">
+                <div id="result" class="text-light rounded text-end p-2 fs-1 bg-dark result-box">0</div>
 
                 <div class="row mt-3">
 
                     <div class="col-9"></div>
                     <div class="col-3">
-                        <button class="btn btn-danger mb-2 w-100" onclick="clearResult()">C</button>
+                        <button class="btn btn-danger mb-3   w-100 clear-btn" onclick="clearResult()">C</button>
                     </div>
 
                     <div class="col">
 
-                        <button class="btn btn-secondary mb-2 w-100" onclick="addValue('7')">7</button>
-                        <button class="btn btn-secondary mb-2 w-100" onclick="addValue('8')">8</button>
-                        <button class="btn btn-secondary mb-2 w-100" onclick="addValue('9')">9</button>
-                        <button class="btn btn-warning mb-2 w-100 operator-btn" onclick="addValue('/')">/</button>
+                        <button class="btn mb-3 w-100 value-btn" onclick="addValue('7')">7</button>
+                        <button class="btn mb-3 w-100 value-btn" onclick="addValue('8')">8</button>
+                        <button class="btn mb-3 w-100 value-btn" onclick="addValue('9')">9</button>
+                        <button class="btn mb-3 w-100 operator-btn" onclick="addValue('/')">/</button>
                     </div>
 
                     <div class="col">
-                        <button class="btn btn-secondary mb-2 w-100" onclick="addValue('4')">4</button>
-                        <button class="btn btn-secondary mb-2 w-100" onclick="addValue('5')">5</button>
-                        <button class="btn btn-secondary mb-2 w-100" onclick="addValue('6')">6</button>
-                        <button class="btn btn-warning mb-2 w-100 operator-btn" onclick="addValue('*')">x</button>
+                        <button class="btn mb-3 w-100 value-btn" onclick="addValue('4')">4</button>
+                        <button class="btn mb-3 w-100 value-btn" onclick="addValue('5')">5</button>
+                        <button class="btn mb-3 w-100 value-btn" onclick="addValue('6')">6</button>
+                        <button class="btn mb-3 w-100 operator-btn" onclick="addValue('*')">x</button>
                     </div>
 
                     <div class="col">   
-                        <button class="btn btn-secondary mb-2 w-100" onclick="addValue('1')">1</button>
-                        <button class="btn btn-secondary mb-2 w-100" onclick="addValue('2')">2</button>
-                        <button class="btn btn-secondary mb-2 w-100" onclick="addValue('3')">3</button>
-                        <button class="btn btn-warning mb-2 w-100 operator-btn" onclick="addValue('-')">-</button>
+                        <button class="btn mb-3 w-100 value-btn" onclick="addValue('1')">1</button>
+                        <button class="btn mb-3 w-100 value-btn" onclick="addValue('2')">2</button>
+                        <button class="btn mb-3 w-100 value-btn" onclick="addValue('3')">3</button>
+                        <button class="btn mb-3 w-100 operator-btn" onclick="addValue('-')">-</button>
                     </div>
 
                     <div class="col">
-                        <button class="btn btn-secondary mb-2 w-100 " onclick="addValue('0')">0</button>
-                        <button class="btn btn-secondary mb-2 w-100" onclick="addValue('.')">.</button>
-                        <button class="btn btn-success mb-2 w-100" onclick="calculate()">=</button>
-                        <button class="btn btn-warning mb-2 w-100 operator-btn" onclick="addValue('+')">+</button>
+                        <button class="btn mb-3 w-100 value-btn" onclick="addValue('0')">0</button>
+                        <button class="btn mb-3 w-100 value-btn" onclick="addValue('.')">.</button>
+                        <button class="btn mb-3 w-100 value-btn" onclick="calculate()">=</button>
+                        <button class="btn mb-3 w-100 operator-btn" onclick="addValue('+')">+</button>
                     </div>
 
                 </div>
