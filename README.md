@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7edeb770-df09-4366-a632-5cd218a0d383" /># Simple Calculator
+# SimpleCalculator
 
 A basic calculator web app built using **HTML**, **CSS**, **JavaScript**, and **Bootstrap**.
 
